@@ -221,7 +221,7 @@ header .cta:hover{
 }
 
 .case .message{
-  width: 50%;
+  /* width: 50%; */
   padding: 40px;
 }
 
@@ -230,12 +230,7 @@ header .cta:hover{
 }
 
 .case .illustration img{
-  width: 25vw;
-}
-
-.case.show{
-  opacity: 1;
-  transform: translateY(0);
+  width: 50vw;
 }
 
 /* !SECTION ABOUT END */
@@ -266,7 +261,6 @@ main .container .heading{
   text-decoration: none;
   color: #1f1f1f;
   padding: 25px;
-  max-width: 30%;
   margin-left: 10px;
   display: flex;
   align-items: center;

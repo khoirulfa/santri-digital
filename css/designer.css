@@ -10,8 +10,12 @@ header .tagline .message{
 /* !SECTION HEADER END */
 
 /* SECTION ABOUT */
+main {
+  width: 90%;
+  margin: auto;
+}
+
 .case .message{
-  width: 55%;
   padding: 60px;
 }
 
@@ -22,7 +26,6 @@ ul, li{
 
 .wrapper{
    margin: auto; 
-   max-width: 50%;
    padding: 2rem;
    border-radius: 15px;
 }
@@ -60,6 +63,18 @@ li:before{
    top: 0px;
 }
 
+li:last-child::before{
+  content: '';
+   width: 15px;
+   height: 15px;
+   background: #4e5ed3;
+   border: 1px solid #4e5ed3;
+   border-radius: 50%;
+   position: absolute;
+   left: -10px;
+   top: 0px;
+}
+
 .list-title{
   color: #2a2839;
   font-family: 'Poppins', sans-serif;
@@ -71,6 +86,11 @@ p{
   color: #4f4f4f;
   line-height: 1.5;
   margin-top:0.4rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 /* !SECTION ABOUT END */

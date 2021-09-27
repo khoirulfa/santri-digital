@@ -80,6 +80,10 @@
 		font-size: 2vw;
 	}
 
+	.case .message {
+		width: 50%;
+	}
+
 	.case .illustration img {
 		width: 30vw;
 	}
@@ -92,6 +96,9 @@
 		order: 2;
 	}
 
+	.wrapper {
+		width: 60%;
+	}
 	/* !SECTION ABOUT DESKTOP END */
 
 	/* SECTION SERVICES DESKTOP */
