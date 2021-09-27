@@ -1,0 +1,96 @@
+/* SECTION HEADER */
+header{
+  background-image: url('../img/designing.jpg');
+}
+
+header .tagline .message{
+   width: 55%;
+   margin: 10px auto 0;
+}
+/* !SECTION HEADER END */
+
+/* SECTION ABOUT */
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.case .message{
+  padding: 60px;
+}
+
+ul, li{
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper{
+   margin: auto; 
+   padding: 2rem;
+   border-radius: 15px;
+}
+
+.sessions{
+  margin-top: 2rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+li{
+  padding-bottom: 1.5rem;
+  border-left: 1px solid #abaaed;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+li:last-child{
+   border: 0px;
+   padding-bottom: 0;
+}
+
+li:before{
+   content: '';
+   width: 15px;
+   height: 15px;
+   background: white;
+   border: 1px solid #4e5ed3;
+   box-shadow: 3px 3px 0px #bab5f8;
+   box-shadow: 3px 3px 0px #bab5f8;
+   border-radius: 50%;
+   position: absolute;
+   left: -10px;
+   top: 0px;
+}
+
+li:last-child::before{
+  content: '';
+   width: 15px;
+   height: 15px;
+   background: #4e5ed3;
+   border: 1px solid #4e5ed3;
+   border-radius: 50%;
+   position: absolute;
+   left: -10px;
+   top: 0px;
+}
+
+.list-title{
+  color: #2a2839;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
+}
+
+p{
+  color: #4f4f4f;
+  line-height: 1.5;
+  margin-top:0.4rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* !SECTION ABOUT END */
